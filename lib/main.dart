@@ -8,6 +8,7 @@ void main() {
       case 0:
         print('$number is even');
         break;
+
       case 1:
         print('$number is odd');
         break;
