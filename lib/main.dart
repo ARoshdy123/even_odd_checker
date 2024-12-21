@@ -1,9 +1,20 @@
-import 'package:flutter/material.dart';
-
+import 'dart:io';
 void main() {
-  runApp(const MyApp());
+
+  List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  for (int number in numbers) {
+
+    switch (number % 2) {
+      case 0:
+        print('$number is even');
+        break;
+      case 1:
+        print('$number is odd');
+        break;
+      default:
+        print('Unexpected case for $number');
+    }
+  }
 }
 
-class MyApp {
-  const MyApp();
-}
