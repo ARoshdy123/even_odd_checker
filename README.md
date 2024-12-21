@@ -1,16 +1,9 @@
-# even_odd_checker
+Project to Categorize a list of numbers into even or odd using for loop and switch case
 
-A new Flutter project.
+used switch case to check if the number added to the list are even or odd
 
-## Getting Started
+Added exception case if we added variable like string or non number to the list as extra.
 
-This project is a starting point for a Flutter application.
+A screen shot for the output for the project
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![img.png](img.png)
